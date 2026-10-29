@@ -1,0 +1,10 @@
+releases-local/
+*.apk
+*.vbm
+*.jks
+*.keystore
+*.p12
+*.key
+.env
+*password*
+*logcat*

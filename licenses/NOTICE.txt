@@ -1,0 +1,33 @@
+vbook-sandbox incorporates Android-BlackBox (Apache-2.0)
+https://github.com/gmh5225/Android-BlackBox
+Snapshot: 20e23c1efeebbb03aca611751c103ce5d162591d
+Copyright 2022 BlackBox and contributors, including Milk / niunaijun.
+
+Imported modules: Bcore and android-mirror; upstream launcher excluded.
+Upstream credits: VirtualApp, VirtualAPK, BlackReflection, FreeReflection, Pine.
+Pine runtime hook code: canyie/pine and contributors.
+Xposed compatibility API: rovo89, Tungstwenty and contributors.
+Apache Commons Lang notices and license retained in
+vendor/blackbox/Bcore/pine-xposed/src/main/apacheCommonsLang/.
+Additional Xposed attribution: docs/XPOSED_NOTICE.txt.
+
+Changes by vbook-sandbox: build toolchain and ARM64 configuration,
+split cluster copy/certificate handling, launcher/import validator, module API v1,
+ART ClassLinker layout calibration, bounded crash restart policy, external document
+provider delegation, stored APK signatures and a signer-pinned microG compatibility
+view scoped to the VM. Guest APK bytes are never modified or re-signed.
+Modified imported files have a notice at their beginning. New project files
+are supplied under the root Apache-2.0 LICENSE. Third-party notices take precedence
+for their respective code. No VBook APK, code, assets or credentials are included.
+
+FreeReflection (MIT), weishu, source tag 3.1.0:
+cdf41d05edad15c4e424b752353231b4e302715e
+https://github.com/tiann/FreeReflection; license in vendor/free-reflection/LICENSE.
+This replaces unavailable Maven artifact me.weishu:free_reflection:3.0.1.
+Pine has its own Anti-996 license (see docs/PINE_ANTI_996_LICENSE); root Apache
+license must not be interpreted as relicensing Pine. See the Pine upstream README.
+
+Material Components for Android 1.12.0, Google and contributors, Apache-2.0.
+https://github.com/material-components/material-components-android/tree/1.12.0
+AndroidX support libraries, Android Open Source Project, Apache-2.0.
+Apache-2.0 license is bundled as APACHE-2.0.txt.
