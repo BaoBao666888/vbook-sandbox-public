@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "targets": {
+    "android": {
+      "version_name": "0.4.7",
+      "version_code": 100015,
+      "url": "https://github.com/BaoBao666888/vbook-sandbox-public/releases/download/v0.4.7/vBookSandbox-0.4.7-arm64.apk",
+      "sha256": "f3e44c1089816bf49ad08840e6ebabb0deb2b9e1dc3dd9cea5e5aa9af869decc",
+      "size": 5424115,
+      "min_sdk": 26,
+      "changelog": "Cải thiện cơ chế cập nhật. Xác minh APK đã tải, giữ file cập nhật và hỗ trợ tải lại khi file không hợp lệ."
+    },
+    "android32": {
+      "version_name": "0.4.7",
+      "version_code": 100015,
+      "url": "https://github.com/BaoBao666888/vbook-sandbox-public/releases/download/v0.4.7/vBookSandbox-0.4.7-engine32.apk",
+      "sha256": "0b19e6fca0fcd12448ef28e8d019b55a45312432e9c47fe3b24d6cc1db1bdb42",
+      "size": 3152479,
+      "min_sdk": 26,
+      "changelog": "Cải thiện cơ chế cập nhật cho vùng ARMv7."
+    }
+  }
+}
