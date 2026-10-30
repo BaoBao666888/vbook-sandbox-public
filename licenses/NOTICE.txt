@@ -8,11 +8,13 @@ Upstream credits: VirtualApp, VirtualAPK, BlackReflection, FreeReflection, Pine.
 Pine runtime hook code: canyie/pine and contributors.
 Xposed compatibility API: rovo89, Tungstwenty and contributors.
 Apache Commons Lang notices and license retained in
-vendor/blackbox/Bcore/pine-xposed/src/main/apacheCommonsLang/.
-Additional Xposed attribution: docs/XPOSED_NOTICE.txt.
+the bundled COMMONS-LANG-NOTICE.txt.
+Additional Xposed attribution is bundled as XPOSED-NOTICE.txt.
 
 Changes by vbook-sandbox: build toolchain and ARM64 configuration,
-split cluster copy/certificate handling, launcher/import validator, module API v1,
+split cluster copy/certificate handling, launcher/import validator, embedded libxposed module bridge,
+per-user copy identity and data cleanup, idempotent external storage mapping,
+Legacy hook ownership and staged module factory/JNI loading,
 ART ClassLinker layout calibration, bounded crash restart policy, external document
 provider delegation, stored APK signatures and a signer-pinned microG compatibility
 view scoped to the VM. Guest APK bytes are never modified or re-signed.
@@ -22,12 +24,21 @@ for their respective code. No VBook APK, code, assets or credentials are include
 
 FreeReflection (MIT), weishu, source tag 3.1.0:
 cdf41d05edad15c4e424b752353231b4e302715e
-https://github.com/tiann/FreeReflection; license in vendor/free-reflection/LICENSE.
-This replaces unavailable Maven artifact me.weishu:free_reflection:3.0.1.
-Pine has its own Anti-996 license (see docs/PINE_ANTI_996_LICENSE); root Apache
+https://github.com/tiann/FreeReflection; license bundled as FREE_REFLECTION-MIT.txt.
+Pine has its own Anti-996 license (bundled as PINE-ANTI-996.txt); root Apache
 license must not be interpreted as relicensing Pine. See the Pine upstream README.
 
 Material Components for Android 1.12.0, Google and contributors, Apache-2.0.
 https://github.com/material-components/material-components-android/tree/1.12.0
 AndroidX support libraries, Android Open Source Project, Apache-2.0.
 Apache-2.0 license is bundled as APACHE-2.0.txt.
+
+libxposed API 102.0.0, libxposed contributors, Apache-2.0.
+https://github.com/libxposed/api/tree/102.0.0
+License bundled as LIBXPOSED-LICENSE.
+
+libxposed service Binder protocol, libxposed contributors, Apache-2.0.
+https://github.com/libxposed/service/tree/0cfe0a4cd099f030f47251a6d5b35e259ec219c8
+Unmodified AIDL protocol. Embedded module-scoped service implementation added by
+vBook Sandbox. Apache-2.0 is bundled as APACHE-2.0.txt.
+ARMv7 runtime packaged in a separate optional application, signed with the host key.
