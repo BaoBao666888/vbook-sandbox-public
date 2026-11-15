@@ -2,22 +2,26 @@
   "schema_version": 1,
   "targets": {
     "android": {
-      "version_name": "0.4.7",
-      "version_code": 100015,
-      "url": "https://github.com/BaoBao666888/vbook-sandbox-public/releases/download/v0.4.7/vBookSandbox-0.4.7-arm64.apk",
-      "sha256": "1e1a336efd153a4cbcba9e1a9fd1830bfe1b80eb61a33baabb309de3c7a32a83",
-      "size": 5424108,
+      "version_name": "0.4.8",
+      "version_code": 100032,
+      "source_version_name": "0.4.8",
+      "source_version_code": 100032,
+      "url": "https://github.com/BaoBao666888/vbook-sandbox-public/releases/download/v0.4.8-100032/vBookSandbox-0.4.8-100032-arm64.apk",
+      "sha256": "5f10909515d0d0a86b01f4a7719de394da6428afdb6faaea0839aaa009996155",
+      "size": 8994258,
       "min_sdk": 26,
-      "changelog": "- Cải thiện cơ chế tự cập nhật ứng dụng.\n- Xác minh đầy đủ danh tính và chữ ký APK đã tải.\n- Lưu bản cập nhật trong bộ nhớ ứng dụng để tránh bị xóa cùng cache.\n- Phát hiện APK lưu không hợp lệ và cho phép tải lại.\n- Giữ nguyên ứng dụng và dữ liệu khi cập nhật bằng cùng package và khóa ký.\n\nỨng dụng trong sandbox và module không bị thay thế bởi quá trình cập nhật host."
+      "changelog": "- Hiển thị mô tả module trong danh sách và chi tiết, cập nhật hướng dẫn ngay trong ứng dụng.\n- Cho phép chọn ứng dụng ngoài danh sách khuyến cáo của module, giữ ứng dụng khuyến cáo được chọn mặc định.\n- Dọn giao diện module do sandbox tạo khi gỡ module, giữ ứng dụng được nhập riêng và dữ liệu của các ứng dụng áp dụng.\n- Mở liên kết được hỗ trợ vào đúng ứng dụng hoặc bản sao do bạn chọn.\n- Cải thiện kết nối dịch vụ và xử lý quyền giữa các ứng dụng trong sandbox.\n- Cải thiện khởi động và tiếp nhận sự kiện khi ứng dụng đang mở.\n- Thêm hồ sơ thiết bị riêng cho từng ứng dụng hoặc bản sao, có báo cáo chẩn đoán và lựa chọn tạo lại hồ sơ mà giữ dữ liệu ứng dụng.\n- Quản lý nhiều hồ sơ VPN, nhập tệp .ovpn hoặc thiết lập thủ công.\n- Cho phép chọn VPN chỉ dùng cho sandbox hoặc toàn điện thoại, cải thiện tương thích kết nối.\n- Thêm bộ kiểm tra mạng để xem thông tin gửi và nhận quan sát được, hoạt động độc lập với VPN.\n- Tìm kiếm, lọc, so sánh bản ghi mạng và chia sẻ báo cáo bằng JSON hoặc HAR, sửa lỗi đuôi tệp khi xuất.\n- Phân biệt dữ liệu trực tiếp với dữ liệu đã xử lý, báo rõ nội dung rỗng, chưa ghi đủ hoặc vượt giới hạn.\n- Giới hạn dung lượng lưu, có lựa chọn ẩn thông tin nhạy cảm và ghi thứ tự yêu cầu mạng.\n- Gom thống kê theo kết nối và giảm các bản ghi mạng lặp lại.\n- Cải thiện cài và cập nhật ứng dụng ngay trong sandbox, kiểm tra chữ ký và giữ dữ liệu khi nâng phiên bản.\n- Các yêu cầu cài đặt chưa hỗ trợ không được chuyển sang máy thật.\n- Cải thiện nhận diện ứng dụng đã cài, xử lý bộ nhớ tạm và khả năng nhập module.\n- Tự kiểm tra cập nhật ngầm khi mở hoặc quay lại sandbox, không cần bật công tắc.\n- Chỉ thông báo khi tệp APK trên kho phát hành đã sẵn sàng và đúng dung lượng, bạn vẫn chủ động tải và cài đặt.\n\nLưu ý: Một số ứng dụng vẫn chưa tương thích với sandbox. Lượng thông tin mạng ghi được tùy ứng dụng, có thể chưa đầy đủ."
     },
     "android32": {
-      "version_name": "0.4.7",
-      "version_code": 100015,
-      "url": "https://github.com/BaoBao666888/vbook-sandbox-public/releases/download/v0.4.7/vBookSandbox-0.4.7-engine32.apk",
-      "sha256": "7ca2905d1d571bbd403c6a6e9d2eba84774493a3fbf8aee125364a114e4366f8",
-      "size": 3152479,
+      "version_name": "0.4.8",
+      "version_code": 100032,
+      "source_version_name": "0.4.8",
+      "source_version_code": 100032,
+      "url": "https://github.com/BaoBao666888/vbook-sandbox-public/releases/download/v0.4.8-100032/vBookSandbox-0.4.8-100032-engine32.apk",
+      "sha256": "16333aa26085aa72d071b06499a7422e3a745a742528d631f584fe872fd9f39b",
+      "size": 4865541,
       "min_sdk": 26,
-      "changelog": "- Cải thiện cơ chế tự cập nhật ứng dụng.\n- Xác minh đầy đủ danh tính và chữ ký APK đã tải.\n- Lưu bản cập nhật trong bộ nhớ ứng dụng để tránh bị xóa cùng cache.\n- Phát hiện APK lưu không hợp lệ và cho phép tải lại.\n- Giữ nguyên ứng dụng và dữ liệu khi cập nhật bằng cùng package và khóa ký.\n\nỨng dụng trong sandbox và module không bị thay thế bởi quá trình cập nhật host."
+      "changelog": "- Hiển thị mô tả module trong danh sách và chi tiết, cập nhật hướng dẫn ngay trong ứng dụng.\n- Cho phép chọn ứng dụng ngoài danh sách khuyến cáo của module, giữ ứng dụng khuyến cáo được chọn mặc định.\n- Dọn giao diện module do sandbox tạo khi gỡ module, giữ ứng dụng được nhập riêng và dữ liệu của các ứng dụng áp dụng.\n- Mở liên kết được hỗ trợ vào đúng ứng dụng hoặc bản sao do bạn chọn.\n- Cải thiện kết nối dịch vụ và xử lý quyền giữa các ứng dụng trong sandbox.\n- Cải thiện khởi động và tiếp nhận sự kiện khi ứng dụng đang mở.\n- Thêm hồ sơ thiết bị riêng cho từng ứng dụng hoặc bản sao, có báo cáo chẩn đoán và lựa chọn tạo lại hồ sơ mà giữ dữ liệu ứng dụng.\n- Quản lý nhiều hồ sơ VPN, nhập tệp .ovpn hoặc thiết lập thủ công.\n- Cho phép chọn VPN chỉ dùng cho sandbox hoặc toàn điện thoại, cải thiện tương thích kết nối.\n- Thêm bộ kiểm tra mạng để xem thông tin gửi và nhận quan sát được, hoạt động độc lập với VPN.\n- Tìm kiếm, lọc, so sánh bản ghi mạng và chia sẻ báo cáo bằng JSON hoặc HAR, sửa lỗi đuôi tệp khi xuất.\n- Phân biệt dữ liệu trực tiếp với dữ liệu đã xử lý, báo rõ nội dung rỗng, chưa ghi đủ hoặc vượt giới hạn.\n- Giới hạn dung lượng lưu, có lựa chọn ẩn thông tin nhạy cảm và ghi thứ tự yêu cầu mạng.\n- Gom thống kê theo kết nối và giảm các bản ghi mạng lặp lại.\n- Cải thiện cài và cập nhật ứng dụng ngay trong sandbox, kiểm tra chữ ký và giữ dữ liệu khi nâng phiên bản.\n- Các yêu cầu cài đặt chưa hỗ trợ không được chuyển sang máy thật.\n- Cải thiện nhận diện ứng dụng đã cài, xử lý bộ nhớ tạm và khả năng nhập module.\n- Tự kiểm tra cập nhật ngầm khi mở hoặc quay lại sandbox, không cần bật công tắc.\n- Chỉ thông báo khi tệp APK trên kho phát hành đã sẵn sàng và đúng dung lượng, bạn vẫn chủ động tải và cài đặt.\n\nLưu ý: Một số ứng dụng vẫn chưa tương thích với sandbox. Lượng thông tin mạng ghi được tùy ứng dụng, có thể chưa đầy đủ."
     }
   }
 }
